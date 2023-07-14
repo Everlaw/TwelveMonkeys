@@ -6,6 +6,7 @@
         <artifactId>imageio</artifactId>
         <version>3.9.4</version>
     </parent>
+    <groupId>com.everlaw</groupId>
     <artifactId>imageio-tiff</artifactId>
     <name>TwelveMonkeys :: ImageIO :: TIFF plugin</name>
     <description>
@@ -20,19 +21,23 @@
         <dependency>
             <groupId>com.twelvemonkeys.imageio</groupId>
             <artifactId>imageio-core</artifactId>
+            <version>${project.version}</version>
         </dependency>
         <dependency>
             <groupId>com.twelvemonkeys.imageio</groupId>
             <artifactId>imageio-metadata</artifactId>
+            <version>${project.version}</version>
         </dependency>
         <dependency>
             <groupId>com.twelvemonkeys.imageio</groupId>
             <artifactId>imageio-jpeg</artifactId>
+            <version>${project.version}</version>
             <scope>test</scope>
         </dependency>
         <dependency>
             <groupId>com.twelvemonkeys.imageio</groupId>
             <artifactId>imageio-core</artifactId>
+            <version>${project.version}</version>
             <type>test-jar</type>
             <scope>test</scope>
         </dependency>
